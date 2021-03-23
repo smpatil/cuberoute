@@ -33,7 +33,6 @@ jobs:
           host: bls3.cloudraptor.co.bw
           username: cduser
           password: Explode-Peculiar-T-shirt-18
-          fingerprint: SHA256:aQsMmAHMwtlIbV+HTquG8PfaPgvHPNHOJ1xB13QdnS0
           script: |
             touch /tmp/test-from-githubaction.txt
             echo "Hello world" > /tmp/test-from-githubactions.txt
