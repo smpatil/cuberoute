@@ -1,10 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-
-
-
-
-name: CI
+name: CD
 
 # Controls when the action will run. 
 on:
@@ -37,7 +33,7 @@ jobs:
           host: bls3.cloudraptor.co.bw
           username: cduser
           password: Explode-Peculiar-T-shirt-18
-          fingerprint: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBM0NggbmKhoIi/kSalHRz+dp2AHcHi1wWRbwvSoNPWEmn83wpio1DSnBg0QdlfJcfiIX4lhaMl1+hH8pSHqleTc=
+          fingerprint: SHA256:aQsMmAHMwtlIbV+HTquG8PfaPgvHPNHOJ1xB13QdnS0
           script: |
             touch /tmp/test-from-githubaction.txt
             echo "Hello world" > /tmp/test-from-githubactions.txt
